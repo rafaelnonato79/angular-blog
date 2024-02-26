@@ -6,15 +6,18 @@
 }
 
 .small-card__photo > img{
-  width: 300px;
-  min-width: 300px;
+  width: 200px;
+  min-width: 200px;
   margin-right: 20px;
-  height: 100px;
+  height: 100%;
 }
 .small-card__title {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.small-card__title > h1{
+  font-size: 20px;
 }
 
 .container__small-card-content{
@@ -25,3 +28,4 @@
 .container__small-card__separator{
   margin-top: 10px;
 }
+
